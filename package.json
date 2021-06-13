@@ -1,0 +1,28 @@
+{
+  "name": "version-creator",
+  "version": "1.0.0",
+  "description": "This will create a new tag and a release branch for a new version and also an output of release notes.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@actions/core": "^1.4.0",
+    "@actions/github": "^5.0.0",
+    "fs-extra": "^10.0.0",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merighifacundo/node-version-creator.git"
+  },
+  "author": "Facundo Merighi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/merighifacundo/node-version-creator/issues"
+  },
+  "homepage": "https://github.com/merighifacundo/node-version-creator#readme"
+}

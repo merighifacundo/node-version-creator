@@ -1,0 +1,21 @@
+name: 'Node Version Creator'
+description: 'Create a new version with the number from the input. Will create a tag and a branch. and commit a change from package.json and package-lock.json'
+inputs:
+  new-version:
+    description: 'This is the new version if non is added we will bump the last one.'
+    required: false
+    default: null
+  old-version:
+    description: 'This is the old version we need to compare.'
+    required: false
+    default: null
+  token:
+    description: 'Git hub token to be use for authentication.'
+    required: false
+    default: null
+outputs:
+  release-notes:
+    description: 'Release Notes'
+runs:
+  using: 'node12'
+  main: 'index.js'
