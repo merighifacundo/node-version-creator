@@ -9,6 +9,10 @@ inputs:
     description: 'This is the old version we need to compare.'
     required: false
     default: null
+  additional-files:
+    description: 'Git hub token to be use for authentication.'
+    required: false
+    default: null
   token:
     description: 'Git hub token to be use for authentication.'
     required: false
