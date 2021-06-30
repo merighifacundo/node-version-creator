@@ -13,6 +13,10 @@ inputs:
     description: 'Git hub token to be use for authentication.'
     required: false
     default: null
+  release-branch:
+    description: 'Create a release branch apart from the tag.'
+    required: false
+    default: true
   token:
     description: 'Git hub token to be use for authentication.'
     required: false
